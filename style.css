@@ -14,60 +14,99 @@ body {
     background: #1F2937;
 }
 
-header{
-    height: 100px;
+    header{
+        height: 100px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    ul {
+        display:flex;
+        gap: 8px;
+        list-style-type: none;
+    }
+
+    ul li a {
+        padding: 0 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+    main {
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main-title {
+        font-size: 48px;
+        color:#F9FAF8 ;
+        font-weight: 800;
+    }
+
+    .main-subtitle {
+        font-size: 15px;
+        color: white;
+    }
+
+    .content-left {
+        width: 500px;
+        margin: 25px;
+    }
+
+    .sgn-up {
+        margin-top: 10px;
+        padding: 8px;
+        text-align: center;
+        border-radius: 15px;
+    }
+
+    .content-right {
+        width: 500px;
+        margin: 25px;
+    }
+
+    .hero-img {
+        border-radius: 15px;
+    }
+
+.middle-top {
+    padding: 20px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-ul {
-    display:flex;
-    gap: 8px;
-    list-style-type: none;
-}
-
-ul li a {
-    padding: 0 20px;
-    text-decoration: none;
-    color: white;
-}
-
-main {
-    
-    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.main-title {
-    font-size: 48px;
-    color:#F9FAF8 ;
-    font-weight: 800;
+.img-placeholders {
+    width: auto;
+    padding: 50px;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 10px;
+    align-self: stretch;
 }
 
-.main-subtitle {
-    font-size: 15px;
-    color: white;
+.img-placeholder {
+    width: 50px;
+    padding: 100px;
+    display: inline-flex;
+    border: 5px solid black;
 }
 
-.content-left {
-    width: 500px;
-    margin: 25px;
+.img-descriptions {
+    padding: 50px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-self: stretch;
 }
 
-.sgn-up {
-    margin-top: 10px;
-    padding: 8px;
+.img-subtext {
+    width: 200px;
     text-align: center;
-    border-radius: 15px;
-}
-
-.content-right {
-    width: 500px;
-    margin: 25px;
-}
-
-.hero-img {
-    border-radius: 15px;
 }
